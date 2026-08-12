@@ -3,7 +3,6 @@
 ### From a Brute-Force Search to Adam, and Why the Ranking of Optimizers Is Not a Property of the Optimizers
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **Kushal Kharel**
 
@@ -168,10 +167,6 @@ can claim.
 - Nocedal, J. & Wright, S. (2006). *Numerical Optimization*, 2nd ed. Springer.
 
 ---
-
-## License
-
-MIT — see [LICENSE](LICENSE).
 
 ## Citation
 
