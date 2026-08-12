@@ -2,7 +2,6 @@
 
 ### From a Brute-Force Search to Adam, and Why the Ranking of Optimizers Is Not a Property of the Optimizers
 
-[![notebook](https://github.com/USERNAME/optimization-from-first-principles/actions/workflows/notebook.yml/badge.svg)](https://github.com/USERNAME/optimization-from-first-principles/actions/workflows/notebook.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -30,8 +29,6 @@ not survive.
 **The ranking of these six optimizers is not a property of the optimizers.** It is
 a property of the curvature of the loss surface, and it reverses completely across
 three regimes that differ only in how the input features were generated.
-
-![Convergence under three curvature regimes](figures/convergence_by_regime.png)
 
 Median over 5 seeds, learning rate tuned per method on held-out tuning seeds,
 equal budget of 25 data passes. Error is the relative distance to the analytical
@@ -69,14 +66,9 @@ diagonal preconditioners: they can stretch and shrink the coordinate axes, but
 they cannot rotate them. A valley running diagonally through parameter space
 cannot be straightened by rescaling coordinates independently.
 
-![Three loss surfaces](figures/three_loss_surfaces.png)
-
 Momentum has the best hit rate on the rotated surface. It averages gradient
 *vectors*, so it retains the cross-coordinate structure that squaring
 component-by-component throws away.
-
-![Trajectories through a rotated valley](figures/rotated_valley_trajectories.png)
-
 ---
 
 ## What is in the notebook
